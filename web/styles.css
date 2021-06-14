@@ -1,0 +1,84 @@
+ 
+table2{
+
+  width:100%;
+  border: collapse;
+ 
+}
+ body {background-color:#fcf9D0 ;}
+    
+th, td {
+  text-align: center;
+  padding: 8px;
+  color: #625D5D;
+  font-family: 'Arsenal', sans-serif;
+}
+
+tr:nth-child(even){background-color: #FBE8A6; font-family: 'Arsenal', sans-serif; color: #625D5D;}
+
+
+* {
+  box-sizing:border-box;
+  
+}
+
+
+
+.column {
+  color: #625D5D;
+  font-family: 'Arsenal', sans-serif;
+  font-size: 17px;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  height: 300px; 
+}
+
+.left {
+  width: 50%;
+}
+
+.right {
+  width: 50%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+ ul.a {
+  list-style-type: circle;
+}
+
+     
+  .topnav {
+  overflow: hidden;
+  background-color:#FBE8A6 ;
+}
+
+.topnav a {
+  float: left;
+  color:  #625D5D;
+  font-family: 'Arsenal', sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+background-color: #ddd;
+  color: black;
+  
+}
+
+.topnav a.active {
+ 
+}
+
+.topnav-right {
+  float: right;
+}
